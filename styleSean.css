@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+}
+.page{
+    width: 100%;
+    height: 750px;
+}
+#firstPage{
+    background-color: rgb(188, 255, 233);
+    text-align: center;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0px;
+    font-family: 'Sacramento', sans-serif;
+    font-size: 60px;
+}
+p{
+    margin-bottom: 0px;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+#text{
+    position: relative;
+    top: 250px;
+}
+#cloud1{
+    position: absolute;
+    top: 300px;
+    left: 400px;
+}
+#cloud2{
+    position: absolute;
+    top: 150px;
+    left: 1000px;
+}
+#mountain{
+    position: relative;
+    top: 260px;
+}
+#secondPage{
+    background-color: rgb(236, 252, 210);
+    text-align: center;
+}
+#headingOf2ndPage{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-top: 44px;
+}
+hr{
+    width: 110px;
+    height: 5px;
+    border: 0;
+    background-color: red;
+}
+.contentOf2ndPage{
+    display: grid;
+    grid-template-columns: 320px 500px;
+    margin-top: 150px;
+    margin-left: 300px;
+}
+.otherInfo{
+    margin-top: 100px;
+    margin-left: 300px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px;
+}
+.icon{
+    margin: 0 50px;
+}
+.icon:hover{
+    padding: 10px;
+    border-style: solid;
+    border-radius: 31px;
+    border-width: 0px;
+    background-color: rgb(247, 115, 8);
+}
+
+#thirdPage{
+    background-color: rgb(116, 115, 115);
+    text-align: center;
+}
+#headingOf3rdPage{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-top: 44px;
+    color: rgb(236, 252, 210);
+}
+#lineOf3rdPage{
+    width: 110px;
+    height: 5px;
+    border: 0;
+    background-color: rgb(0, 162, 255);
+}
+.contentOf3rdPage{
+    margin-top: 70px;
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+}
+#firstPart{
+    height: 500px;
+    text-align: center;
+    display: grid;
+}
+#secondPart{
+    height: 500px;
+    text-align: center;
+    display: grid;
+}
+#thirdPart{
+    height: 500px;
+    text-align: center;
+    display: grid;
+}
+.aboutGivenTopic{
+    color:  rgb(116, 115, 115);
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin: 0 45px ;
+}
+.partOf3rdPage:hover{
+    background-color: rgb(8, 152, 248);
+    border-radius: 31px; 
+    cursor: pointer;
+}
+.partOf3rdPage:hover #aboutCoding{
+    color: black;
+}
+.partOf3rdPage:hover #aboutPhysics{
+    color: black;
+}
+.partOf3rdPage:hover #aboutMaths{
+    color: black;
+}
+#fourthPage{
+    background-color: rgb(236, 252, 210);
+    text-align: center;
+}
+#headingOf4thPage{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    padding-top: 44px;
+}
+.contentOf4thPage{
+    height: 500px;
+    width: 800px;
+    margin-left: 360px;
+    margin-top: 60px;
+    color: chocolate;
+    display: grid;
+    grid-template-rows: 40% 40%;
+}
+.tabla{
+    background-color:  rgb(232, 255, 194);
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+.thomasSawyer{
+    background-color:  rgb(232, 255, 194);
+    margin-top: 100px;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+#conclusion{
+    height: 500px;
+    background-color: black;
+}
+.bottom-bar{
+    padding-top: 40px;
+    margin-left: 250px;
+    width: 1000px;
+    height: 400px;
+    position: relative;
+    top: 30px;
+}
+#contentOfLastPage{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.lastParagraph{
+    color: white;
+    font-size: 15px;
+}
+.lastParagraph:hover{
+    color: rgb(204, 204, 204);
+}
+.lastTopic{
+    color: white;
+}
+.Content{
+    margin: 10px;
+}
